@@ -14,13 +14,6 @@ const TextEditor = () => {
           value={value}
           onChange={setValue}
           className="h-full"
-          style={{
-            width: "100%",
-            minHeight: "11in",
-            padding: "1in",
-            boxShadow: "0 0 5px 0 rgba(0, 0, 0, .5)",
-            backgroundColor: "white",
-          }}
         />
       </div>
     </div>
