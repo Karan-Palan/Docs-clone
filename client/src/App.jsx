@@ -1,11 +1,12 @@
 
 import './App.css'
+import TextEditor from './components/TextEditor'
 
 function App() {
 
   return (
     <div>
-      HI
+      <TextEditor/>
     </div>
   )
 }
